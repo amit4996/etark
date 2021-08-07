@@ -1,0 +1,49 @@
+.content{
+    max-width: 800px;
+    margin:0px auto;
+    h1,h3{
+        text-align: center;
+    }
+    p{text-align: left;font-size: 1.1em;}
+   
+  }
+  .drop{
+    span{
+        font-weight:bold;
+        font-size: 1.05em;
+    }
+    ol{
+        list-style-type: upper-alpha;
+    }
+    p,ol li,ul li{
+     font-size: 1.05em;
+     margin:15px 0px;
+    }
+}
+
+@media (max-width: 860px)
+{
+    .content{
+        width:90%;
+        h1,h3{
+            text-align: center;
+        }
+        p{text-align: left;font-size: 1em;text-align: center;}
+       
+      }
+      .drop{
+        span{
+            font-weight:bold;
+            font-size: 1em;
+        }
+        ol li,ul li{
+         text-align: left;
+         font-size: 1em;
+        }
+        p{
+            font-size: 1em;
+            text-align: left;
+        }
+    }
+}
+  
